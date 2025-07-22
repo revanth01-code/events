@@ -5,6 +5,7 @@ import Navigation from "./components/Navigation";
 import HomePage from "./pages/HomePage";
 import EventsPage from "./pages/EventsPage";
 import EventDetailsPage from "./pages/EventDetailsPage";
+import OrganizersPage from "./pages/OrganizersPage";
 import LoginPage from "./pages/LoginPage";
 import { Toaster } from "./components/ui/sonner";
 
