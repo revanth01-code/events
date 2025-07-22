@@ -25,7 +25,7 @@ function App() {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/events" element={<EventsPage />} />
                 <Route path="/events/:id" element={<EventDetailsPage />} />
-                <Route path="/organizers" element={<div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50 flex items-center justify-center"><div className="text-center"><h1 className="text-4xl font-bold text-gray-900 mb-4">Organizers Page</h1><p className="text-gray-600">Coming soon in the full version!</p></div></div>} />
+                <Route path="/organizers" element={<OrganizersPage />} />
                 <Route path="/calendar" element={<div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50 flex items-center justify-center"><div className="text-center"><h1 className="text-4xl font-bold text-gray-900 mb-4">Calendar Integration</h1><p className="text-gray-600">Google Calendar sync coming soon!</p></div></div>} />
                 <Route path="/create-event" element={<div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50 flex items-center justify-center"><div className="text-center"><h1 className="text-4xl font-bold text-gray-900 mb-4">Create Event</h1><p className="text-gray-600">Event creation form coming soon!</p></div></div>} />
                 <Route path="/profile" element={<div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50 flex items-center justify-center"><div className="text-center"><h1 className="text-4xl font-bold text-gray-900 mb-4">User Profile</h1><p className="text-gray-600">Profile page coming soon!</p></div></div>} />
